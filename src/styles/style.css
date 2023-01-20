@@ -18,9 +18,10 @@ body {
 
 .conteiner {
 	padding: 30px;
-	background-color: pink;
+	background-color: rgb(221, 221, 221);
 	width: 100%;
 	height: auto;
+	border-radius: 0.25rem;
 }
 
 .button {
@@ -54,12 +55,13 @@ body {
 
 .collapse {
 	height: 0;
+	overflow: hidden;
 
 	transition: height 1s linear;
 }
 
 .collapse.show {
-	height: 102px;
+	height: 122px;
 
 	transition: height 1s linear;
 }
